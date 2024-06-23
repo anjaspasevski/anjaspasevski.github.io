@@ -1,0 +1,377 @@
+@font-face {
+    font-family: headerfont;
+    src: url(nighty/Nightydemo.otf);
+}
+@font-face {
+    font-family: headerfont1;
+    src: url(magilio-font/MagilioRegular-8Mxvg.otf);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background-color: white;
+    margin:-1px;
+    overflow-x: hidden;
+}
+.header{
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 80px;
+}
+
+.home,.aboutme,.skills,.contact,.blog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: white;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.home:hover,.aboutme:hover,.skills:hover,.contact:hover,.blog:hover{
+    transform: scale(1.1);
+}
+.skills{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.holder1{
+    height: 300px;
+    background-image: url(images/skillsbg.jpg);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-size: cover;
+    display: grid;
+}
+.skillsintro{
+    margin-top: 20px;
+    font-size: 70px;
+    font-family: headerfont1;
+    text-align: center;
+    color: white;
+    height: 150px;
+}
+
+/* styles.css */
+
+.introskills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.threeskills, .sixskills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    margin: 20px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.flip-card-front {
+    background-color: #bd6355;
+    color: whitesmoke;
+}
+
+.flip-card-back {
+    background-color: #ffece9;
+    color: rgb(86, 36, 36);
+    transform: rotateY(180deg);
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'headerfont1', sans-serif;
+}
+
+
+
+
+
+
+
+.firstrow{
+    display: flex;
+    margin-top: 80px;
+}
+.css{
+    width: 600px;
+    margin-left: 50px;
+}
+.cssline{
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border: 5px #5C3636 solid;
+    border-radius: 45px;
+
+}
+.cssimg{
+margin-left: 40%;
+}
+
+
+.cssper{
+    font-family: headerfont1;
+    color: #5C3636;
+    margin-top: 10px;
+    margin-left: 44%;
+}
+.cssfull{
+    position: absolute;
+    width: 425px;
+    height: 15px;
+    background-color: #5C3636;
+    border-radius: 45px;
+    margin-top: -16px;
+}
+.html{
+    
+    width: 600px;
+}
+.htmlline{
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border: 5px #5C3636 solid;
+    border-radius: 45px;
+
+}
+.htmlimg{
+margin-left: 40%;
+}
+
+
+.htmlper{
+    font-family: headerfont1;
+    color: #5C3636;
+    margin-top: 10px;
+    margin-left: 44%;
+}
+.htmlfull{
+    position: absolute;
+    width: 450px;
+    height: 15px;
+    background-color: #5C3636;
+    border-radius: 45px;
+    margin-top: -16px;
+}
+
+.secondrow{
+    display: flex;
+    margin-top: 150px;
+}
+.ae{
+    width: 600px;
+    margin-left: 50px;
+}
+.aeline{
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border: 5px #5C3636 solid;
+    border-radius: 45px;
+
+}
+.aeimg{
+margin-left: 40%;
+}
+
+
+.aeper{
+    font-family: headerfont1;
+    color: #5C3636;
+    margin-top: 10px;
+    margin-left: 44%;
+}
+.aefull{
+    position: absolute;
+    width: 475px;
+    height: 15px;
+    background-color: #5C3636;
+    border-radius: 45px;
+    margin-top: -16px;
+}
+.ps{
+    
+    width: 600px;
+}
+.psline{
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border: 5px #5C3636 solid;
+    border-radius: 45px;
+
+}
+.psimg{
+margin-left: 40%;
+}
+
+
+.psper{
+    font-family: headerfont1;
+    color: #5C3636;
+    margin-top: 10px;
+    margin-left: 44%;
+}
+.psfull{
+    position: absolute;
+    width: 450px;
+    height: 15px;
+    background-color: #5C3636;
+    border-radius: 45px;
+    margin-top: -16px;
+}
+
+
+.thirdrow{
+    display: flex;
+    margin-top: 150px;
+}
+.pp{
+    width: 600px;
+    margin-left: 50px;
+}
+.ppline{
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border: 5px #5C3636 solid;
+    border-radius: 45px;
+
+}
+.ppimg{
+margin-left: 40%;
+}
+
+
+.ppper{
+    font-family: headerfont1;
+    color: #5C3636;
+    margin-top: 10px;
+    margin-left: 44%;
+}
+.ppfull{
+    position: absolute;
+    width: 475px;
+    height: 15px;
+    background-color: #5C3636;
+    border-radius: 45px;
+    margin-top: -16px;
+}
+.ai{
+    
+    width: 600px;
+}
+.ailine{
+    margin-top: 30px;
+    width: 500px;
+    height: 10px;
+    background-color: white;
+    border: 5px #5C3636 solid;
+    border-radius: 45px;
+
+}
+.aiimg{
+margin-left: 40%;
+}
+
+
+.aiper{
+    font-family: headerfont1;
+    color: #5C3636;
+    margin-top: 10px;
+    margin-left: 44%;
+}
+.aifull{
+    position: absolute;
+    width: 450px;
+    height: 15px;
+    background-color: #5C3636;
+    border-radius: 45px;
+    margin-top: -16px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: whitesmoke;
+    margin-top: 60px;
+    height: 150px;
+    background-color: #6a8580;
+}
+.footermenu{
+    margin-left: 22%;
+    display: flex;
+}
+.fhome,.faboutme,.fskills,.fcontact,.fblog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: whitesmoke;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+
+}
+.fhome:hover,.faboutme:hover,.fskills:hover,.fcontact:hover,.fblog:hover{
+    transform: scale(1.1);
+}
+.footertext{
+    margin-top: 40px;
+    text-align: center;
+}

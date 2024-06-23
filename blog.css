@@ -1,0 +1,282 @@
+@font-face {
+    font-family: headerfont;
+    src: url(nighty/Nightydemo.otf);
+}
+@font-face {
+    font-family: headerfont1;
+    src: url(magilio-font/MagilioRegular-8Mxvg.otf);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: white;
+    margin:-1px;
+    overflow-x: hidden;
+}
+.header{
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 80px;
+}
+.home,.aboutme,.skills,.contact,.blog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: white;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.home:hover,.aboutme:hover,.skills:hover,.contact:hover,.blog:hover{
+    transform: scale(1.1);
+}
+.blog{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.holder{
+    height: 300px;
+    background-image: url(images/blogbg.jpg);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-size: cover;
+    display: grid;
+}
+.holdertitle{
+    font-family: headerfont1;
+    font-size: 80px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+
+
+
+.bloggrid{
+    margin-left: 12%;
+    margin-top: 5%;
+    display: flex;
+}
+.bigblog{
+    width: 600px;
+    height: 500px;
+    background-image: url(images/videoeditingblog.jpg);
+    border-radius: 45px;
+
+}
+.topblog{
+    border-radius: 45px;
+    background-image: url(images/college.jpg);
+    background-size: cover;
+    padding-top: 20px;
+    margin-left: 20px;
+    height: 210px;
+    width: 300px;
+}
+.bottomblog{
+    border-radius: 45px;
+    background-image: url(images/laptops.webp);
+    background-size: cover;
+    padding-top: 20px;
+    margin-left: 20px;
+    height: 210px;
+    width: 300px;
+    margin-top: 40px;
+}
+.bigblogtitle{
+    border-radius: 45px;
+    color: #5f2b35;
+    font-size: 25px;
+    margin: 20px;
+    margin-left: 55%;
+    width: 200px;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.topblogtitle,.bottomblogtitle{
+    border-radius: 45px;
+    color: #5f2b35;
+    font-size: 15px;
+    margin-left: 8%;
+    margin-top: -5%;
+    width: 200px;
+    padding: 20px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.bbopen,.tbopen,.botopen{
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 45px;
+    background-color: #ffbbbb;
+    color: rgb(114, 41, 41);
+    transition: transform 0.2s ease-in-out;
+
+}
+.bbopen:hover,.botopen:hover,.tbopen:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: #652b2b;
+    color: #ffbbbb;
+}
+.bbopen{
+    margin-top: 50%;
+    margin-left: 75%;
+}
+.tbopen,.botopen{
+    margin-top: 40%;
+    margin-left: 55%;
+}
+
+
+.recentblogscoding{
+    padding-top: 80px;
+    margin-top: 100px;
+background-size: cover; 
+   border-radius: 50px;
+    height: 400px;
+}
+.blogcards{
+    margin-top: 90px;
+    /* margin-left: 70px; */
+    display: flex;
+}
+.card1{
+    margin-left: 45px;
+    color: #2d3246;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card1pic{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 250px;
+}
+.card1text{
+    text-align: center;
+    padding: 15px;
+}
+.blogbutton{
+    margin-left: 27%;
+    align-self: center;
+    align-content: center;
+    color: #dfebe3;
+    height: 40px;
+    width: 100px;
+    background-color: #2d3246;
+    border: none;
+    border-radius: 30px;
+    
+}
+
+.rbtext{
+    text-align: center;
+    color: whitesmoke;
+    font-family: headerfont1;
+    font-size: 35px;
+}
+.recentblogsediting{
+    padding-top: 60px;
+    background-color: #fcbf79;
+    margin-top: 10%;
+    background-size: cover; 
+   border-radius: 50px;
+    height: 550px;
+}
+.blogcards{
+    margin-top: 90px;
+    /* margin-left: 70px; */
+    display: flex;
+}
+.card1{
+    margin-left: 45px;
+    color: #2d3246;
+    background-color: whitesmoke;
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card1pic{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 250px;
+}
+.card1text{
+    text-align: center;
+    padding: 15px;
+}
+.blogbutton{
+    margin-left: 27%;
+    align-self: center;
+    align-content: center;
+    color: #c03b3b;
+    height: 40px;
+    width: 100px;
+    background-color: #ffbbbb;
+    border: none;
+    border-radius: 30px;
+}
+.blogbutton:hover{
+    cursor: pointer;
+}
+.recents{
+    border-radius: 45px;
+    height: 1200px;
+    background-color: #ffd29f;
+    color: #2d3246;
+}
+
+
+
+
+.footer{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: whitesmoke;
+    margin-top: 10%;
+    height: 150px;
+    background-color: #6a8580;
+}
+.footermenu{
+    margin-left: 22%;
+    display: flex;
+}
+.fhome,.faboutme,.fskills,.fcontact,.fblog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: whitesmoke;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+
+}
+.fhome:hover,.faboutme:hover,.fskills:hover,.fcontact:hover,.fblog:hover{
+    transform: scale(1.1);
+}
+.footertext{
+    margin-top: 40px;
+    text-align: center;
+}

@@ -1,0 +1,260 @@
+@font-face {
+    font-family: headerfont;
+    src: url(nighty/Nightydemo.otf);
+}
+@font-face {
+    font-family: headerfont1;
+    src: url(magilio-font/MagilioRegular-8Mxvg.otf);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: rgb(253, 244, 244);
+    margin:-1px;
+    overflow-x: hidden;
+}
+.header{
+
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 80px;
+}
+.home,.aboutme,.skills,.contact,.blog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: white;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.home:hover,.aboutme:hover,.skills:hover,.contact:hover,.blog:hover{
+    transform: scale(1.1);
+}
+.aboutme{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.holder{
+    height: 300px;
+    background-image: url(images/bgaboutme.jpg);
+    background-size: cover;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+
+}
+.main{
+    color: white;
+    margin-left: 20%;
+    display: flex;
+    
+}
+.mainpic{
+    margin-top: 30px;
+    margin-bottom: -5%;
+    width: 200px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.main1,.main2{
+    font-family: headerfont1;
+    font-size: 80px;
+    margin-top: 8%;
+}
+.main1{
+    margin-right: 90px;
+}
+.main2{
+    margin-left: 90px;
+}
+
+.polaroid1,.polaroid2,.polaroid3,.polaroid4{
+    width: 280px;
+    transition: transform 0.2s ease-in-out;
+    transform-origin: center top;
+}
+.polaroid1,.polaroid3{
+    margin-top: 1%;
+    margin-left: 8%;
+}
+.polaroid2,.polaroid4{
+    margin-left: 7%;
+    margin-top: 1%;
+
+}
+.pbg1,.pbg2,.pbg3,.pbg4{
+    position: absolute;
+    z-index: -999;
+    width: 500px;
+}
+
+.pbg2,.pbg4{
+    margin-left: 698px;
+}
+.polaroid1:hover,.polaroid3:hover{
+transform: rotate(10deg) scale(1.04);
+
+}
+.polaroid2:hover,.polaroid4:hover{
+    transform: rotate(-10deg) scale(1.04);
+}
+.firsttext,.secondtext,.thirdtext,.fourthtext{
+    display: flex;
+}
+.pin1,.pin2,.pin3,.pin4{
+    position: absolute;
+}
+.pin1,.pin3{
+    margin-left: 19%;
+    margin-top: -30px;
+}
+.pin2,.pin4{
+margin-left: 70%;
+margin-top: -30px;
+
+}
+.firsttext{
+    margin-top: 10%;
+}
+.firsttexts{
+    width: 600px;
+    margin-top: 7%;
+    color: #3d4b48;
+    font-size: 20px;
+    margin-left: 8%;
+}
+.secondtext,.fourthtext{
+    margin-left: 150px;
+    margin-top: 3%;
+}
+.secondtexts,.fourthtexts{
+    width: 600px;
+    margin-top: 11%;
+    color: #3d4b48;
+    font-size: 20px;
+    margin-left: 10%;
+}
+.skillsinfo{
+    font-size: 30px;
+    font-family: headerfont1;
+}
+.background{
+    font-size: 30px;
+    font-family: headerfont1;
+}
+.thirdtexts{
+    width: 600px;
+    margin-top: 7%;
+    color: #3d4b48;
+    font-size: 20px;
+    margin-left: 8%;
+
+}
+.passion{
+    font-size: 30px;
+    font-family: headerfont1;
+}
+.personal{
+    font-size: 30px;
+    font-family: headerfont1;
+}
+.brush1,.brush3{
+    margin-top: 3%;
+    margin-left: 35%;
+    position: absolute;
+    z-index: -999;
+    width: 750px;
+}
+.brush2,.brush4{
+    margin-top: 6%;
+    margin-left: 40px;
+    position: absolute;
+    width: 750px;
+    z-index: -999;
+}
+
+.sparkle1,.sparkle2,.sparkle3,.sparkle4,.sparkle5,.sparkle6,.sparkle7,.sparkle8{
+    position: absolute;
+    z-index: -998;
+}
+.sparkle1{
+    margin-top: -80px;
+    margin-left: 80%;
+    width: 50px;
+}
+.sparkle2{
+    margin-top: -60px;
+    width: 75px;
+    margin-left: 75%;
+}
+.sparkle3{
+    margin-top: -12%;
+    width: 50px;
+    margin-left: 10%;
+}
+.sparkle4{
+    margin-left: 4%;
+    width: 75px;
+    margin-top: -10%;
+}
+.sparkle5{
+    margin-left: 40%;
+    width: 75px;
+}
+.sparkle6{
+    margin-top: -10px;
+    margin-left: 35%;
+    width: 50px;
+}
+.sparkle7{
+    margin-left: 40%;
+    width: 75px;
+}
+.sparkle8{
+    margin-top: -10px;
+    width: 50px;
+    margin-left: 47%;
+}
+
+
+
+.footer{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: whitesmoke;
+    margin-top: 60px;
+    height: 150px;
+    background-color: #6a8580;
+}
+.footermenu{
+    margin-left: 22%;
+    display: flex;
+}
+.fhome,.faboutme,.fskills,.fcontact,.fblog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: whitesmoke;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+
+}
+.fhome:hover,.faboutme:hover,.fskills:hover,.fcontact:hover,.fblog:hover{
+    transform: scale(1.1);
+}
+.footertext{
+    margin-top: 40px;
+    text-align: center;
+}

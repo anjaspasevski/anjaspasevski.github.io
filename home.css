@@ -1,0 +1,313 @@
+@font-face {
+    font-family: headerfont;
+    src: url(nighty/Nightydemo.otf);
+}
+@font-face {
+    font-family: headerfont1;
+    src: url(magilio-font/MagilioRegular-8Mxvg.otf);
+}
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+body{
+    margin:-1px;
+    overflow-x: hidden;
+}
+.header{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 80px;
+}
+
+.home,.aboutme,.skills,.contact,.blog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: white;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+    
+}
+.home:hover,.aboutme:hover,.skills:hover,.contact:hover,.blog:hover{
+    transform: scale(1.1);
+}
+.home{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.holder1{
+    height: 600px;
+    background-image: url(images/backgroundimage.jpg);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-size: cover;
+    display: grid;
+}
+.intro{
+    text-align: center;
+    color: whitesmoke;
+    font-family: headerfont1;
+    justify-self: center;
+    font-size: 120px;
+}
+.sparkle1,.sparkle2{
+    width: 100px;
+    position: absolute;
+
+}
+.sparkle1{
+    left: 15%;
+    top: 70%;
+}
+.sparkle2{
+    top: 30%;
+    right: 15%;
+}
+
+.amhome{
+    margin-top: 40px;
+    display: flex;
+    height: 400px;
+    margin-left: 50px;
+}
+.ampic{
+    width: 500px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.amtext{
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 600px;
+}
+.amtext1{
+    font-family: headerfont1;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(248, 222, 228);
+}
+.amtext2{
+    margin-top: 20px;
+    font-size: 20px;
+    color: rgb(232, 199, 207);
+}
+
+.ambutton{
+    border: none;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 30%;
+    border-radius: 50px;
+    color: rgb(248, 222, 228);
+    background-color: rgb(182, 97, 111);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.ambutton:hover{
+    transform: scale(1.1);
+    background-color:rgb(248, 222, 228);
+    color: rgb(182, 97, 111);
+}
+.timeline {
+    padding-top: 50px;
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 550px;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: #dbece1;
+    top: 60px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+.container {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+.container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: white;
+    border: 4px solid #dbece1;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.left {
+    left: 0;
+}
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -16px;
+}
+.content {
+    font-family: headerfont1;
+    color: rgb(204, 145, 169);
+    padding: 20px 30px;
+    background-color: #dbece1;
+    position: relative;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.content:hover{
+    transform: scale(1.1);
+}
+.recentblogs{
+    
+    margin-top: 100px;
+background-image: url(images/bgimgrecentblogs.jpg);
+background-size: cover; 
+   border-radius: 50px;
+    height: 500px;
+}
+.blogcards{
+    margin-top: 90px;
+    margin-left: 70px;
+    display: flex;
+}
+.card1{
+    margin-left: 70px;
+    color: #55665b;
+    background-color: whitesmoke;
+    width: 300px;
+    height: 350px;
+    border-radius: 50px;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card1pic{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 300px;
+}
+.card1text{
+    text-align: center;
+    padding: 15px;
+}
+.blogbutton{
+    margin-left: 25%;
+    align-self: center;
+    align-content: center;
+    color: #dfebe3;
+    height: 40px;
+    width: 150px;
+    background-color: #55665b;
+    border: none;
+    border-radius: 30px;
+    
+}
+.rbtext{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family: headerfont1;
+}
+.getintouch{
+    margin-top: 15%;
+}
+.gittitle{
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: headerfont1;
+    font-size: 50px;
+    color: rgb(198, 225, 217);
+}
+.gitforms{
+    margin-left: 32%;
+    display: grid;
+}
+.name,.email{
+    padding: 5px;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(243, 243, 236);
+    margin-bottom: 30px;
+}
+.email{
+    margin-left: 40px;
+}
+.writemessage{
+    
+    padding: 5px;
+    background-color: rgb(243, 243, 236);
+    border-radius: 20px;
+    width: 450px;
+    height: 150px;
+    border: none;
+
+}
+.submit{
+    margin-top: 30px;
+    background-color: rgb(198, 225, 217);
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 15%;
+    transition: transform 0.2s ease-in-out;
+    color: rgb(110, 147, 136);
+}
+.nameemail{
+    display: flex;
+}
+.submit:hover{
+    transform: scale(1.1);
+    background-color: rgb(110, 147, 136);
+    color:rgb(198, 225, 217) ;
+}
+
+.footer{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    color: whitesmoke;
+    margin-top: 60px;
+    height: 150px;
+    background-color: #6a8580;
+}
+.footermenu{
+    margin-left: 22%;
+    display: flex;
+}
+.fhome,.faboutme,.fskills,.fcontact,.fblog{
+    margin-top: 40px;
+    margin-right: 80px;
+    width: 80px;
+    height: 30px;
+    align-content: center;
+    color: whitesmoke;
+    border-radius: 45px;
+    transition: transform 0.2s ease-in-out;
+
+}
+.fhome:hover,.faboutme:hover,.fskills:hover,.fcontact:hover,.fblog:hover{
+    transform: scale(1.1);
+}
+.footertext{
+    margin-top: 40px;
+    text-align: center;
+}
